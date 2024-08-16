@@ -9,7 +9,9 @@ const ExpTracker = () => {
 
   const handleOnClick = () => {
     const newData = { name, price };
-    setAllDetails([...allDetails, newData]);
+    if (name !== "" && price !== "") {
+      setAllDetails([...allDetails, newData]);
+    }
     setName("");
     setPrice("");
   };

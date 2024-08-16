@@ -25,7 +25,7 @@ const ProgresBar = () => {
       copySteps[i] = i + 1;
       setSteps(copySteps);
     }
-  }, []);
+  }, [steps]);
 
   console.log(steps, "steps");
   return (
