@@ -1,5 +1,7 @@
 # React + Vite
 
+in this project used react js and vite tools for development here are some small projects expansetraker,form-validation,progressbar
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
